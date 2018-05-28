@@ -1,0 +1,43 @@
+body.collection {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.album-covers {
+    position: relative;
+}
+
+.collection-album-container {
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 8px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.collection-album-container .caption {
+    margin-top: 10px;
+}
+
+.collection-album-container .caption p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.collection-album-container .caption p a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.collection-album-container .caption p a.album-name {
+    color: white;
+}
+
+.collection-album-container img {
+    width: 50%;
+    margin-top: 15px;
+}

@@ -1,0 +1,112 @@
+body.album {
+    padding-bottom: 200px;
+}
+
+.album-cover-art {
+    position: relative;
+    left: 20%;
+    margin: 1rem auto;
+    width: 60%;
+}
+
+.album-view-details {
+    position: relative;
+    width: 50%;
+    color: #10B0C4;
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 40px;
+    }
+
+.album-view-details .album-view-title {
+    font-size: 4rem;
+    font-family: 'Knewave', cursive;
+}
+
+.album-view-details .album-view-artist {
+    font-size: 2rem;
+    font-family: 'Knewave', cursive;
+}
+
+.album-view-details .album-view-release-info {
+    font-size: 1rem;
+    text-align: center;
+    color: #9F05AF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.album-view-song-list {
+    width: 90%;
+    margin: 1.5rem auto;
+    font-weight: 500;
+    font-size: 0.75em;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.album-view-song-item {
+    height: 3rem;
+    border-bottom: 1px solid #9F05AF;
+}
+
+.album-view-song-item:last-child {
+  border-bottom: none;
+}
+
+
+.song-item-number {
+    width: 5%;
+    min-width: 30px;
+    text-align: center;
+  }
+
+.song-item-title {
+    width: 85%;
+}
+
+.song-item-duration {
+    width: 5%;
+}
+
+.album-song-button {
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50% 50%;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    color: #40169E;
+}
+
+.album-song-button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #10ACC1;
+}
+
+.album-song-button span {
+    line-height: 28px;
+}
+
+
+
+@media (max-width: 40rem) and (min-width: 20rem) {
+    .album-view-details {
+        text-align: center;
+    }
+
+.album-view-title {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 64rem) and (min-width: 20rem) {
+    .album-view-song-list {
+        position: relative;
+        top: 1rem;
+        width: 80%;
+        margin: auto;
+    }
+}
