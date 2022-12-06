@@ -21,7 +21,7 @@
     "node": ">=6.11.1"
   },
   "devDependencies": {
-    "connect-modrewrite": "^0.7.9",
+    "connect-modrewrite": "^0.10.2",
     "es5-shim": "^4.0.1"
   }
 }
